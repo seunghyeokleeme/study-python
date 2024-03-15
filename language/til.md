@@ -16,6 +16,14 @@
       for _ in s:
         print_answer(i, _)
       recursion(s, i+1, m)
-  
+
     return print_answer(i, finish_sentence)
   ```
+
+### import 라이브러리 as 축약
+
+다른 라이브러리나 모듈을 불러올때 축약어로 부르는 방법
+
+```python
+import numpy as np
+```
